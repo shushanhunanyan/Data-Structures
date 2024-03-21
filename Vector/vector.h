@@ -45,7 +45,7 @@ public:
 	void push_back(T);
 	void pop_back();
 	void resize();
-public:
+private:
 	T* m_data;
 	std::size_t m_size;
 	std::size_t m_cap;
